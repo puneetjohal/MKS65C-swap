@@ -9,7 +9,7 @@ int main(){
   srand( time(NULL) );
   int i;
   for (i = 0; i < 9; i++){
-    ray[i] = &rand();
+    ray[i] = rand();
   }
   //Set the last value in the array to 0.
   int last = 0;
