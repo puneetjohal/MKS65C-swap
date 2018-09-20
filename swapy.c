@@ -14,10 +14,9 @@ int main(){
   //Set the last value in the array to 0.
   ray[9] = 0;
   //Print out the values in this array
-  printf("Vales in array: ");
-  for (i = 0; i < 9; i++){
-    printf("%d, ", ray[i]);
+  printf("Vales in array:\n");
+  for (i = 0; i < 10; i++){
+    printf("ray[%d] = %d \n", i, ray[i]);
   }
-  printf("%d\n", ray[9]);
   return 0;
 }
