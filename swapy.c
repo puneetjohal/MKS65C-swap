@@ -15,8 +15,9 @@ int main(){
   ray[9] = 0;
   //Print out the values in this array
   printf("Vales in array: ");
-  for (i = 0; i < 10; i++){
+  for (i = 0; i < 9; i++){
     printf("%d, ", ray[i]);
   }
+  printf("%d\n", ray[9]);
   return 0;
 }
